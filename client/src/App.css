@@ -131,16 +131,19 @@ body {
 
 .leftside {
   width: 70vw;
-  height: 100vh;
+  height: 120vh;
   margin-top: 10vh;
 }
 .rightside {
-  width: 30vw;
   height: 100vh;
   position: fixed;
   top: 0;
   right: 0;
   border-left: 2px solid gray;
+}
+.icon {
+  font-size: 2vw;
+  outline: none;
 }
 .profilePic {
   width: 20vw;
@@ -201,6 +204,8 @@ body {
   width: 10vw;
   height: 5vh;
   border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
 }
 .col1 {
   display: flex;
@@ -249,9 +254,103 @@ body {
 }
 .roles {
   margin: 2vw;
-  font-size: 1.1vw;
+  font-size: 2.1vh;
   font-family: "Lexend", sans-serif;
 }
 .inner {
   display: flex;
+}
+@media only screen and (max-width: 1100px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftside {
+    width: 100vw;
+    margin: 0;
+  }
+  .rightside {
+    position: relative;
+    display: flex;
+    height: auto;
+    border-left: 0px;
+  }
+  .language {
+    font-size: 2vw;
+    justify-content: space-around;
+  }
+  .library {
+    font-size: 2vw;
+  }
+  
+  .storage {
+    font-size: 2vw;
+  }
+  .info {
+    width: 50vw;
+    margin-top: 7vh;
+  }
+  .profilePic {
+    width: 50vh;
+    height: 50vh;
+  }
+  .buttons {
+    margin: 0 4vw;
+    margin-top: 5vh;
+  }
+  .icon {
+    font-size: 5vw;
+    outline: none;
+  }
+  .box{
+    border: 1px solid black;
+    width: 20vw;
+    height: 7vh;
+  }
+  .clickable{
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .rightside{
+    flex-direction: column;
+  }
+  .profilePic {
+    width: 90vw;
+    height: 90vw;
+  }
+  .info{
+    width: 100vw;
+  }
+  .language {
+    font-size: 3vw;
+    justify-content: space-around;
+  }
+  .library {
+    font-size: 3vw;
+  }
+  
+  .storage {
+    font-size: 3vw;
+  }
+  .buttons {
+    margin: 0 4vw;
+    margin-top: 5vh;
+  }
+  .icon {
+    font-size: 10vw;
+    outline: none;
+  }
+  .box{
+    width: 44vw;
+    height: 12vh;
+  }
+  .clickable{
+    font-size: 4vw;
+  }
+  .name{
+    margin-top: 0;
+    font-size: 5vw;
+  }
 }
