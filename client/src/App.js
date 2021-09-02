@@ -103,7 +103,7 @@ function App() {
               <p>Ant Design</p>
             </div>
             <div className='react'>
-              <p>Material Ui</p>
+              <p>Okta</p>
             </div>
           </div>
 
