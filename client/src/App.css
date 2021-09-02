@@ -358,7 +358,10 @@ body {
     flex-direction: column;
   }
   .photo{
-    width: 84.5vw;
+    width: 85vw;
     height: 50vw;
+  }
+  .content {
+    margin: 0;
   }
 }
