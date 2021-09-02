@@ -124,9 +124,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 body {
   background-color: rgb(247, 247, 247);
+  -webkit-user-select: none;
 }
 
 .leftside {
@@ -158,6 +158,8 @@ body {
   text-align: center;
   font-family: "Lato", sans-serif;
   color: rgb(59, 59, 59);
+  -webkit-user-select: auto;
+
 }
 
 .buttons {
