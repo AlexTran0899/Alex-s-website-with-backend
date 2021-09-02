@@ -125,24 +125,26 @@ table {
   border-spacing: 0;
 }
 
-
-.App {
-  display: flex;
-  height: 100vh;
+body {
   background-color: rgb(247, 247, 247);
 }
+
 .leftside {
-  border: 1px solid black;
   width: 70vw;
-  height:100vh;
+  height: 100vh;
+  margin-top: 10vh;
 }
 .rightside {
-  border: 1px solid black;
   width: 30vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border-left: 2px solid gray;
 }
 .profilePic {
   width: 20vw;
-  margin:0 5vw;
+  margin: 0 5vw;
   margin-top: 10vh;
   border-radius: 25px;
   border: 0.2px solid gray;
@@ -156,87 +158,100 @@ table {
 }
 
 .buttons {
-  margin:0 4vw;
+  margin: 0 4vw;
   margin-top: 10vh;
 }
 .box:hover {
-  opacity: 0.20;
+  opacity: 0.2;
   cursor: pointer;
 }
 .projects {
   display: flex;
-  margin:10vh 5vw;
+  margin: 7vh 5vw;
   padding: 2vh;
   border: 1px solid rgb(134, 134, 134);
   border-radius: 20px;
 }
+.projects:hover {
+  cursor: pointer;
+}
 .photo {
   height: 20vh;
-  width: auto; 
+  width: auto;
   border-radius: 20px;
 }
-.content{
-  margin-left:2vw;
+.content {
+  margin-left: 2vw;
 }
 .title {
-  margin:1vw;
+  margin: 1vw;
   font-size: 5vh;
   font-family: "Lexend", sans-serif;
 }
-.description{
+.description {
   font-size: 2vh;
-  margin:1vw;
+  margin: 1vw;
   font-family: "Lexend", sans-serif;
 }
-.box{
+.box {
   display: flex;
   align-items: center;
   justify-content: space-around;
   border: 1px solid black;
-  width:10vw;
+  width: 10vw;
   height: 5vh;
   border-radius: 10px;
 }
-.col1{
+.col1 {
   display: flex;
   justify-content: space-around;
 }
-.col2{
-  margin-top:2vh;
+.col2 {
+  margin-top: 2vh;
   display: flex;
   justify-content: space-around;
 }
-.clickable{
+.clickable {
   font-size: 1.5vw;
   font-family: "Lexend", sans-serif;
   cursor: pointer;
 }
-.language{
+.language {
   margin: 4vh 5vw;
   border: 1px solid black;
   border-radius: 25px;
   padding: 2%;
   font-family: "Lexend", sans-serif;
   display: flex;
-  justify-content: space-around;
-
-}
-.library{
-  margin: 4vh 5vw;
-  border: 1px solid black;
-  border-radius: 25px;
-  padding: 2%;
-  font-family: "Lexend", sans-serif;
-  display: flex;
+  font-size: 1.1vw;
   justify-content: space-around;
 }
-
-.storage{
+.library {
   margin: 4vh 5vw;
   border: 1px solid black;
   border-radius: 25px;
   padding: 2%;
   font-family: "Lexend", sans-serif;
+  font-size: 1.1vw;
   display: flex;
   justify-content: space-around;
+}
+
+.storage {
+  margin: 4vh 5vw;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 2%;
+  font-size: 1.1vw;
+  font-family: "Lexend", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+.roles {
+  margin: 2vw;
+  font-size: 1.1vw;
+  font-family: "Lexend", sans-serif;
+}
+.inner {
+  display: flex;
 }
