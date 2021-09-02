@@ -32,7 +32,6 @@ const data = [{
   roles: ['Collaborate with a team of 4 front end Web Developers and 2 back end Web Developers to build a fully functional web application in 1 week.','Solely responsible for creating seeds and building endpoints for project’s back end and server side functions.'
 ]
 }]
-disableScroll.on()
 function App() {
   const [hover, sethover] = useState(false)
   const [cal, setcal] = useState(false)
