@@ -122,7 +122,6 @@ function App() {
                   {project.roles.map(role => {
                     return (<li className='roles'>{role}</li>)
                   })}
-
                 </div> :
                 <div className='inner'>
                   <img src={project.image} className='photo' alt={project.title} />

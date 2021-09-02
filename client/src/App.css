@@ -159,7 +159,6 @@ body {
   font-family: "Lato", sans-serif;
   color: rgb(59, 59, 59);
   -webkit-user-select: auto;
-
 }
 
 .buttons {
@@ -354,5 +353,12 @@ body {
   .name{
     margin-top: 0;
     font-size: 5vw;
+  }
+  .inner{
+    flex-direction: column;
+  }
+  .photo{
+    width: 85vw;
+    height: 40vh
   }
 }
