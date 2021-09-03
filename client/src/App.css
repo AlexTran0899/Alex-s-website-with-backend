@@ -178,18 +178,18 @@ body {
   cursor: pointer;
 }
 .photo {
-  height: 25vh;
+  height: 27vh;
 }
 .content {
   margin-left: 2vw;
 }
 .title {
   margin: 1vw;
-  font-size: 250%;
+  font-size: 5vh;
   font-family: "Lexend", sans-serif;
 }
 .description {
-  font-size: 100%;
+  font-size: 2vh;
   margin: 1vw;
   font-family: "Lexend", sans-serif;
 }

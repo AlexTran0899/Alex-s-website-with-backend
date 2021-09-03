@@ -102,7 +102,7 @@ function App() {
       </div>
       <div className="leftside">
         <Popup visible={cal} >
-          <InlineWidget url="https://calendly.com/alextran0899/15min" className='cal' />
+          <InlineWidget url="https://calendly.com/alextran0899/zoom" className='cal' />
         </Popup>
         {data.map(project => {
           return (
