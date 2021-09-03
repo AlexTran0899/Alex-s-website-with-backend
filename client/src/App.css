@@ -131,7 +131,7 @@ body {
 
 .leftside {
   width: 70vw;
-  height: 120vh;
+  height: 100vh;
   margin-top: 10vh;
 }
 .rightside {
@@ -172,28 +172,24 @@ body {
 .projects {
   display: flex;
   margin: 7vh 5vw;
-  padding: 2vh;
   border: 1px solid rgb(134, 134, 134);
-  border-radius: 20px;
 }
 .projects:hover {
   cursor: pointer;
 }
 .photo {
-  height: 20vh;
-  width: auto;
-  border-radius: 20px;
+  height: 25vh;
 }
 .content {
   margin-left: 2vw;
 }
 .title {
   margin: 1vw;
-  font-size: 5vh;
+  font-size: 250%;
   font-family: "Lexend", sans-serif;
 }
 .description {
-  font-size: 2vh;
+  font-size: 100%;
   margin: 1vw;
   font-family: "Lexend", sans-serif;
 }
@@ -261,61 +257,27 @@ body {
 .inner {
   display: flex;
 }
-@media only screen and (max-width: 1100px) {
-  .App {
-    display: flex;
+@media only screen and (max-width: 1000px) {
+  .inner{
     flex-direction: column;
   }
-  .leftside {
-    width: 100vw;
-    margin: 0;
-  }
-  .rightside {
-    position: relative;
-    display: flex;
-    height: auto;
-    border-left: 0px;
-  }
-  .language {
-    font-size: 2vw;
-    justify-content: space-around;
-  }
-  .library {
-    font-size: 2vw;
-  }
-  
-  .storage {
-    font-size: 2vw;
-  }
-  .info {
-    width: 50vw;
-    margin-top: 7vh;
-  }
-  .profilePic {
-    width: 50vh;
-    height: 50vh;
-  }
-  .buttons {
-    margin: 0 4vw;
-    margin-top: 5vh;
-  }
-  .icon {
-    font-size: 5vw;
-    outline: none;
-  }
-  .box{
-    border: 1px solid black;
-    width: 20vw;
-    height: 7vh;
-  }
-  .clickable{
-    font-size: 2vw;
+  .photo{
+    width: 59.8vw;
+    height: 34vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .rightside{
     flex-direction: column;
+    position: relative;
+    display: flex;
+    height: auto;
+    border-left: 0px;
+  }
+  .leftside {
+    width: 100vw;
+    margin: 0;
   }
   .profilePic {
     width: 90vw;
@@ -351,14 +313,11 @@ body {
     font-size: 4vw;
   }
   .name{
-    margin-top: 0;
+    margin-top: 3vh;
     font-size: 5vw;
   }
-  .inner{
-    flex-direction: column;
-  }
   .photo{
-    width: 85vw;
+    width: 89.8vw;
     height: 50vw;
   }
   .content {
