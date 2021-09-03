@@ -176,6 +176,7 @@ body {
 }
 .projects:hover {
   cursor: pointer;
+  opacity: 0.5;
 }
 .photo {
   height: 27vh;
