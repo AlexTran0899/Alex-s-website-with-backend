@@ -21,7 +21,7 @@ const data = [{
   image: 'https://i.ibb.co/s38D5Wc/Screen-Shot-2021-09-01-at-8-11-11-PM.png',
   title: 'Human Rights First Asylum',
   link: 'https://a.humanrightsfirstasylum.dev',
-  description: 'Potluck Planner is an app that allows organizers and attendees to efficiently plan their potluck events.',
+  description: 'Track and display a judge or judges decision rate nationwide',
 }
 ]
 function App() {
