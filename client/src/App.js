@@ -12,10 +12,10 @@ const data = [{
   description: 'Allows the user to find video solutions to codesignal challenges quickly.',
 },
 {
-  image: 'https://i.ibb.co/S6jZDL3/Screen-Shot-2021-09-01-at-5-08-25-PM.png',
-  title: 'Potluck Planer',
-  link: 'https://theonewhoknocks.herokuapp.com',
-  description: 'Potluck Planner is an app that allows organizers and attendees to efficiently plan their potluck events.',
+  image: 'https://i.ibb.co/XWKxzkC/Screen-Shot-2021-09-27-at-12-26-21-PM-2.png',
+  title: 'Image for sale',
+  link: 'https://alex-shopify-challenge-backend.herokuapp.com',
+  description: 'An online market place for selling and buying digital images',
 },
 {
   image: 'https://i.ibb.co/s38D5Wc/Screen-Shot-2021-09-01-at-8-11-11-PM.png',
