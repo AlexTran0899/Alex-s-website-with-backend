@@ -8,7 +8,7 @@ import Popup from 'react-widget-popup';
 const data = [{
   image: 'https://i.ibb.co/Tc8RSLp/Screen-Shot-2021-09-01-at-4-15-16-PM-2.png',
   title: 'CodeSignal Cheat',
-  link: 'https://codesignalcheat.herokuapp.com',
+  link: 'https://code-signal-cheat-frontend-only-iqizqxmnc-alextran0899.vercel.app',
   description: 'Allows the user to find video solutions to codesignal challenges quickly.',
 },
 {
