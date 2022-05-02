@@ -1,5 +1,5 @@
 import './App.css';
-import profilepic from './IMG_0001.jpeg'
+import profilepic from './1639883050426.jpeg'
 import { ScheduleOutlined, GithubOutlined, LinkedinOutlined, MailOutlined } from '@ant-design/icons';
 import { InlineWidget } from "react-calendly";
 import { useState } from 'react';
@@ -37,13 +37,10 @@ function App() {
         <div className='skills'>
           <div className='language'>
             <div className='css'>
-              <p>CSS</p>
+              <p>Ruby</p>
             </div>
             <div className='javascript'>
               <p>Javascript</p>
-            </div>
-            <div className='htnl'>
-              <p>HTML</p>
             </div>
             <div className='python'>
               <p>Python</p>
@@ -51,9 +48,6 @@ function App() {
           </div>
 
           <div className='storage'>
-            <div className='AWS'>
-              <p>AWS-S3</p>
-            </div>
             <div className='Postgress'>
               <p>PostgreSQL</p>
             </div>
@@ -67,10 +61,10 @@ function App() {
               <p>React</p>
             </div>
             <div className='react'>
-              <p>Ant Design</p>
+              <p>GraphQL</p>
             </div>
             <div className='react'>
-              <p>Okta</p>
+              <p>Node.js</p>
             </div>
           </div>
         </div>
